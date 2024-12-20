@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('pic/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-container {
+  max-width: 500px; /* Smaller container for input page */
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 120px; /* Adjusted size of the logo */
+}
+
+.bold-title {
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  background: linear-gradient(90deg, #3498db, #8e44ad);
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  animation: fadeIn 2s ease-out;
+  margin: 0;
+}
+
+h1.bold-title {
+  margin: 10px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Transparent table for output and completed pages */
+table {
+  background-color: rgba(255, 255, 255, 0.8); /* Transparent background */
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: rgba(200, 200, 200, 0.9); /* Slightly opaque header */
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #2980b9;
+}
+
+.filter {
+  margin: 10px 0;
+  text-align: right;
+}
+
+.filter input {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+/* Add some animation for text effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Atur posisi logo agar tidak menyentuh tabel */
+.logo-output {
+  width: 100px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+/* Atur posisi container tabel untuk transparansi */
+.table-wrapper {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Kolom peserta dengan bullet point */
+td ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style-type: disc;
+}

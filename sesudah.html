@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGENDA GENERAL MANAGER BANDARA SULTAN SYARIF KASIM 2 PEKANBARU</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container output-container">
+        <header>
+            <img src="pic/Logo bandara.png" alt="InJourney Airport Logo" class="logo-output">
+            <h1 class="bold-title">REKAP AGENDA</h1>
+            <div class="filter">
+                <label for="completed-filter-date">Filter by Date: </label>
+                <input type="date" id="completed-filter-date">
+            </div>
+        </header>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Hari dan Tanggal</th>
+                        <th>Waktu</th>
+                        <th>Agenda</th>
+                        <th>Tempat</th>
+                        <th>Peserta</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="completed-schedule-table">
+                    <!-- Jadwal selesai akan ditambahkan di sini -->
+                </tbody>
+            </table>
+        </div>
+        <a href="hasil-jadwal.html" class="add-schedule-button">Kembali ke Jadwal Aktif</a>
+    </div>
+    <script src="script-selesai.js"></script>
+</body>
+</html>
